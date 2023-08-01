@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(software.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    border: 2px solid hsl(0, 17%, 98%);
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    border-radius: 60px; 
+    height: 100px;
+    width: 100px;
+}
+.links{
+    flex: 1;
+    text-align: right;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.links ul li a{
+    display: inline-block;
+    
+    color: rgb(245, 245, 247);
+    border: 2px solid hsl(0, 17%, 98%);
+    padding: 12px;
+    font-size: 25px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+   text-decoration: none;
+   text-align: right;
+} .links ul li a:hover{
+    border: 1px solid hsla(257, 64%, 98%, 0.937);
+    background-color: rgb(255, 0, 255);
+
+transition: 1s;
+
+}.text-box{
+    width: 90%;
+    color: rgb(250, 250, 247);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    color: #d60892;
+    font-size: 62px;
+}.text-box h1 p{
+    font-size: 20px;
+    margin: 10p 0 40px;
+    
+}.vus{
+display: inline-block;
+text-decoration: none;
+color: rgb(245, 245, 247);
+border: 2px solid hsl(0, 17%, 98%);
+padding: 12px;
+font-size: 15px;
+background: transparent;
+position: relative;
+cursor: pointer;
+}
+.vus:hover{
+    border: 1px solid #6005f1ef;
+    background: #6005f1ef;
+transition: 1s;
+}
+#mtr {
+    color: #3f21eb;
+    width: 80%;
+  margin: auto;
+   text-align: center;
+  padding-top: 100px;
+}
+#mtr h1{
+    color: red;
+    font-size: 36px;
+    font-weight: 600;
+}
+#mtr h1 p{ 
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-top: 10px;
+    border-radius: 60px; 
+    height: 100px;
+    width: 100px;
+    }#mtr a{ 
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 22px;
+        padding-top: 10px;
+        border-radius: 60px; 
+        height: 100px;
+        width: 100px;
+        }
+    
